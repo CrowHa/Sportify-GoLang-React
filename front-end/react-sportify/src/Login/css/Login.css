@@ -1,0 +1,115 @@
+
+.login {
+    display: grid;
+    background-color: rgb(4, 4, 4);
+    height: 10vh;
+    grid-template-columns: repeat(auto-fit, minmax(980px, 1fr));
+}
+
+.login>img {
+    height: 47px;
+    margin-top: 10px;
+    margin-left: 45%;
+}
+
+.login>a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 99px;
+    font-weight: 800;
+    background-color: #1db954;
+}
+.slogan-loginn {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+ 
+}
+.btn-in-login{
+    height: 30px;
+    width: 280px;
+    border-radius: 100px;
+    border: none;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 38%;
+    font-size: 9px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-in-login:hover {
+    background-color: rgb(255, 255, 255);
+    /* Màu nền khi hover */
+    color: black;
+    /* Màu chữ khi hover */
+    outline: 2px solid rgb(2, 15, 2);
+    /* Thêm đường viền khi hover */
+}
+.btn-in-login:active {
+    background-color: rgb(161, 158, 176);
+}
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+
+
+
+}
+.input-login-username{
+    height: 30px;
+        width: 270px;
+        border-radius: 4px;
+        border: 1px solid;
+        margin-top: 0px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:  11px;
+        
+}
+.label-input-loginn{
+    font-size: 10px;
+    margin-right: 150px;
+    margin-top: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+}
+.input-login{
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 37%;
+}
+::placeholder{
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.btn-in-login-login{
+    width: 75px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 9px;
+    border: none;
+    background-color: #2cdf6a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+    font-size: 10px;
+}
+.btn-in-login-login:hover {
+    background-color: rgb(106, 247, 118);
+    /* Màu nền khi hover */
+    color: black;
+    /* Màu chữ khi hover */
+    outline: 1px solid rgb(133, 236, 140);
+    /* Thêm đường viền khi hover */
+}
+.btn-in-login-login:active {
+    background-color: rgb(9, 235, 28);
+}
